@@ -14,6 +14,12 @@ Activate the virtual environment by using the following command.
 $ . venv/bin/activate
 ```
 
+Now you need to install the application dependencies located in the requirements.txt file using pip, if you do not have pip installed you can follow this [guide](https://pypi.org/project/pip/) to install pip.
+
+```bash
+$ pip install -r requirements.txt
+```
+
 This is currently a terminal based application, run the following command to see the live football scores appear in the terminal.
 
 ```bash
