@@ -17,4 +17,5 @@ $ . venv/bin/activate
 This is currently a terminal based application, run the following command to see the live football scores appear in the terminal.
 
 ```bash
-$ python3 main.py```
+$ python3 main.py
+```
