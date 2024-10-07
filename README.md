@@ -1,6 +1,6 @@
 # live_football_scores
 
-This application scrapes live football fixture results from the Sky Sports website. 
+This application scrapes live football fixture results from the Sky Sports website using BeautifulSoup and Flask. 
 
 To run this application you will need to create a virtual environment to using the following command.
 
