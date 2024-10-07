@@ -1,6 +1,7 @@
 import httpx
 from bs4 import BeautifulSoup
 
+# this is a terminal application only and is not used for Flask
 def main():
     a = httpx.get('https://www.skysports.com/football-fixtures')
     soup = BeautifulSoup(a.text, features="html.parser")
