@@ -36,3 +36,5 @@ To view the live football scores in the terminal only, run the following command
 ```bash
 $ python3 terminal_app.py
 ```
+
+![An image displaying the live_football_scores webpage](/images/live_football_scores.png)
