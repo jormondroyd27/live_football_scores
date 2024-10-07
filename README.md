@@ -29,7 +29,8 @@ $ flask run
 To run in debug mode, use the following command.
 
 ```bash 
-$ flask --app app.py --debug run```
+$ flask --app app.py --debug run
+```
 
 To view the live football scores in the terminal only, run the following command.
 
