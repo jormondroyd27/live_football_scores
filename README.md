@@ -20,8 +20,14 @@ Now you need to install the application dependencies located in the requirements
 $ pip install -r requirements.txt
 ```
 
-This is currently a terminal based application, run the following command to see the live football scores appear in the terminal.
+To view the Flask app, enter the following command and open the development server [here](http://127.0.0.1:5000).
 
 ```bash
-$ python3 main.py
+$ flask run
+```
+
+To view the live football scores in the terminal only, run the following command.
+
+```bash
+$ python3 terminal_app.py
 ```
