@@ -5,7 +5,7 @@ This application scrapes live football fixture results from the Sky Sports websi
 To run this application you will need to create a virtual environment to using the following command.
 
 ```bash
-$ python -m venv venv
+$ python3 -m venv venv
 ```
 
 Activate the virtual environment by using the following command.
