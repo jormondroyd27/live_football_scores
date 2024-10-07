@@ -1,20 +1,69 @@
 body {
-    background-color: lightgrey;
-    height: 100%;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,0.8001401244091386) 39%, rgba(0,212,255,1) 100%);
+    background: rgb(78,11,125); */
+    background: linear-gradient(90deg, rgba(78,11,125,1) 0%, rgba(9,54,121,0.8001401244091386) 54%, rgba(0,212,255,1) 100%);
+    height: 100vh;
     width: 100%;
     text-align: center;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    height: 100vh;
     justify-content: center;
+    align-items: center;
 }
 
 .card {
     background-color: white;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 10%;
     width: 40em;
     height: 40em;
 }
+
+.date {
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.home {
+    flex: 1;
+    flex-basis: 0;
+    text-align: right;
+    font-family: monospace;
+}
+
+.home p {
+    background-color: aliceblue;
+}
+
+.away {
+    flex: 1;
+    flex-basis: 0;
+    text-align: left;
+    font-family: monospace;
+}
+
+.away p {
+    background-color: aliceblue;
+}
+
+.score {
+    margin: 0 20px 0 20px;
+}
+
+.score p {
+    color: white;
+    background-color: red;
+    padding: 1px 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
