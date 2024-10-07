@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from test import home_teams, away_teams, scores, home_team_score, away_team_score
+from beautiful_soup import home_teams, away_teams, scores, home_team_score, away_team_score
 
 app = Flask(__name__)
 
