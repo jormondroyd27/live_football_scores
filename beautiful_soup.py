@@ -4,6 +4,14 @@ from bs4 import BeautifulSoup
 a = httpx.get('https://www.skysports.com/football-fixtures')
 soup = BeautifulSoup(a.text, features="html.parser")
 
+def month_and_year():
+    mmyy = soup.find(class_="fixres__header1")
+    return mmyy.text
+
+def todays_date():
+    date = soup.find(class_="fixres__header2")
+    return date.text
+
 def home_teams():
     home_team_list = []
     for x in soup.find_all('span', class_="matches__participant--side1"):  

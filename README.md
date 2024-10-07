@@ -26,8 +26,15 @@ To view the Flask app, enter the following command and open the development serv
 $ flask run
 ```
 
+To run in debug mode, use the following command.
+
+```bash 
+$ flask --app app.py --debug run```
+
 To view the live football scores in the terminal only, run the following command.
 
 ```bash
 $ python3 terminal_app.py
 ```
+
+![An image displaying the live_football_scores webpage](/images/live_football_scores.png)
