@@ -12,6 +12,14 @@ def todays_date():
     date = soup.find(class_="fixres__header2")
     return date.text
 
+def match_time():
+    kick_off = soup.find_all('span', class_="matches__date")
+    match_times = []
+    for x in kick_off:
+        match_times.append(x.text)
+    list = [i.strip('\n ') for i in match_times]
+    return match_times
+
 def home_teams():
     home_team_list = []
     for x in soup.find_all('span', class_="matches__participant--side1"):  

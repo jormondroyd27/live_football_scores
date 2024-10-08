@@ -24,11 +24,20 @@ body {
     font-family: sans-serif;
 }
 
+.kick_off p {
+    /* border: 1px solid black; */
+    padding: 0px auto;
+    margin: 0px;
+    font-family: monospace;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     margin: 0 20px;
+    /* border: 1px solid blue; */
 }
+
 
 .home {
     flex: 1;
