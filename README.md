@@ -2,7 +2,7 @@
 
 This application scrapes live football fixture results from the Sky Sports website using BeautifulSoup and Flask. 
 
-To run this application you will need to create a virtual environment to using the following command.
+To run this application you will need to create a virtual environment, use the following command to create the virtual environment.
 
 ```bash
 $ python3 -m venv venv
@@ -38,4 +38,4 @@ To view the live football scores in the terminal only, run the following command
 $ python3 terminal_app.py
 ```
 
-![An image displaying the live_football_scores webpage](/images/live_football_scores.png)
+![An image displaying the live_football_scores webpage](/images/live_football_scoresv2.png)
